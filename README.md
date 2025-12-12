@@ -53,14 +53,35 @@ See [PROJECT_ARCHITECTURE.md](PROJECT_ARCHITECTURE.md) for complete technical de
 - **ByteTrack** (Multi-object tracking)
 - **Transformer** (Custom temporal encoder)
 
+## Dataset
+
+Dataset: 
+from huggingface_hub import snapshot_download
+snapshot_download(repo_id="SoccerNet/SN-BAS-2024",
+                  repo_type="dataset", revision="main",
+                  local_dir="SoccerNet/SN-BAS-2024")
+
+## Checkpoints
+
+Trained weights available at : 
+For latest weights -  /outputs/checkpoints/toy_latest.pth
+For best weights - /outputs/checkpoints/toy_best.pth
+
 ## Demo
 
 Input: Broadcast soccer match footage (224p, 25fps)
 Output: Frame-by-frame action predictions with confidence scores
+Available through the demo.py script
+
+## Results
+
+- Graphs for loss & accuracy as well as mAP scores available at : outputs/metrics/
+- F1 score and confusion matrix also part of the code in outputs/metrics.py for future runs
 
 ## Citation
 
-Dataset: [SoccerNet Ball Action Spotting 2024](https://www.soccer-net.org/)
+Soccernet Action Dataset 2024 : Use command from https://huggingface.co/datasets/SoccerNet/SN-BAS-2025 and change to "2024"
+
 2024 Soccernet Winning Model (T-DEED) & Paper: https://github.com/arturxe2/T-DEED/tree/main
 https://arxiv.org/pdf/2404.05392
 
