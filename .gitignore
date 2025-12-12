@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Training outputs
+outputs/
+*.pth
+*.tar.gz
+training.log
+training.pid
+*.log
+
+# Data
+Soccernet/
+*.mp4
+*.avi
+*.mov
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/
+cache/
+
+yolov8x.pt
+*.pt

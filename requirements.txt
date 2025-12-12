@@ -1,0 +1,32 @@
+# Minimal Requirements for Soccer Action Detection
+# Only essential packages needed for the project
+
+# Essential Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+
+# Computer Vision & Video Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+moviepy>=1.0.3
+
+# Tracking & Math
+filterpy>=1.4.5
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Data Processing & ML Utils
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualization & Logging
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tensorboard>=2.13.0
+tqdm>=4.65.0
+
+# SoccerNet Dataset Download
+huggingface_hub>=0.16.0
+
+# Total: 17 essential packages (reduced from 38)
