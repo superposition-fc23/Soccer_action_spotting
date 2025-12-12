@@ -58,11 +58,17 @@ See [PROJECT_ARCHITECTURE.md](PROJECT_ARCHITECTURE.md) for complete technical de
 Input: Broadcast soccer match footage (224p, 25fps)
 Output: Frame-by-frame action predictions with confidence scores
 
-See `presentation_results/` for evaluation plots and `presentation_inference_output.mp4` for sample output.
-
 ## Citation
 
 Dataset: [SoccerNet Ball Action Spotting 2024](https://www.soccer-net.org/)
+2024 Soccernet Winning Model (T-DEED) & Paper: https://github.com/arturxe2/T-DEED/tree/main
+https://arxiv.org/pdf/2404.05392
+
+2023 Soccernet Winning Model: https://github.com/lRomul/ball-action-spotting/tree/master
+
+YOLOv8 & Usage: https://yolov8.com/
+
+ByteTrack : https://github.com/FoundationVision/ByteTrack
 
 ---
 
