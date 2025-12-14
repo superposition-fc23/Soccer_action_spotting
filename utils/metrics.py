@@ -312,7 +312,7 @@ class MetricsTracker:
         print(f"Accuracy:  {metrics['accuracy']:.2f}%")
         print(f"Macro F1:  {metrics['macro_f1']:.4f}")
         print(f"\nMean Average Precision:")
-        print(f"  mAP@1:           {metrics['map_at_1']:.4f}")
+        print(f"  Top-1 class accuracy:           {metrics['map_at_1']:.4f}")
         print(f"  Tight Avg mAP:   {metrics['tight_avg_map']:.4f}")
         print(f"\nPer-Class F1 Scores:")
         for cls_name, f1 in zip(self.class_names, metrics['per_class_f1']):
